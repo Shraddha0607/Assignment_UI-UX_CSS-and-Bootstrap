@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #00CCCC;
+}
+#sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(#7CB9E8 , white );
+    /* background-color: #343a40; Bootstrap dark background color */
+    padding-top: 56px; /* Adjust this value based on your navbar height */
+    color: white;
+}
+#content {
+    margin-left: 250px; /* Set this value equal to the sidebar width */
+    padding: 15px;
+}
+
+.navbar{
+    margin-left: 250px;
+    margin-top: 40px;;
+    background-color: #FFFFF0;
+}
+
+.logo{
+    width: 250px;
+    height: 160px;
+}
+
+.arrow{
+    margin-left: 20px;;
+}
+.badgeExtra{
+    background-color: red;
+}
+
+.form-control,
+        .btn {
+            background-color: #000;
+            color: #fff;
+            border-color: #fff; /* Add border color if needed */
+        }
+
+        .btn:hover {
+            background-color: #222; /* Darker background color on hover */
+        }
